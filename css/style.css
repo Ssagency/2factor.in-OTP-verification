@@ -1,0 +1,31 @@
+
+.btnSubmit {
+    background: #2196f3;
+    padding: 8px 20px;
+    border-radius: 3px;
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.error {
+    color: #483333;
+    padding: 10px;
+    background: #ffbcbc;
+    border: #efb0b0 1px solid;
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display:none;
+}
+
+.success {
+    color: #483333;
+    padding: 10px 20px;
+    background: #cff9b5;
+    border: #bce4a3 1px solid;
+    border-radius: 3px;
+    margin: 0 auto;
+    display:none;
+}
