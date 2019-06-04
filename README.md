@@ -11,6 +11,8 @@ Verify India 10 digit mobile phone numbers by sending SMS to user with 6 digit r
 * controller.php - processing our API call, all functionality is there
 * js/verification.js - control of user data input and AJAX request to process controller.php
 
+* IMPORTANT - For development purpose only we show OTP number which is sent to phone number. Please delete lines 60 to 63 in controller.php when you are ready for Production.
+
 
 ## Used API
 
