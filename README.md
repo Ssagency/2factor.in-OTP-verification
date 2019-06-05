@@ -39,6 +39,8 @@ js/verification.js line 19 code "number.length == 10 &&"
 
 * Verify phone number with OTP password sent to phone
 * Forward user Name, Phone and mail to checkout page
-* BONUS forward url parameters from index.php usefull for add campaings tracking
-Sample: yoururl.com/index.php?utm_source=testsource&utm_medium=testmedium&utm_campaign=testcampaing
-On checkout page data is in hidden input field ;)
+
+## Additional features
+* Forward url parameters from index.php , usefull for add campaings tracking.
+* Sample: yoururl.com/index.php?utm_source=testsource&utm_medium=testmedium&utm_campaign=testcampaing
+* On checkout page data is in hidden input field.
