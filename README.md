@@ -3,6 +3,15 @@
 One Time Password verification for 2factor.in
 Verify India 10 digit mobile phone numbers by sending SMS to user with 6 digit random code.
 
+## Internation phone number support
+
+By default setup we check for India 10 digit phone number.
+API provides support for international phone numbers and they have to be procesed with dialing code of country.
+Sample: +385991234567
+
+To change or remove 10 digit limit please modify or remove:
+js/verification.js line 19 code "number.length == 10 &&"
+
 ## Instructions
 
 * Get API key at: https://2factor.in/CP/register.php
